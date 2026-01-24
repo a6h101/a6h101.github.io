@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Sample</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header id="header" class="header">
+      <div class="container container-lg">
+        <div class="header-nav">
+          <a
+            href="#home"
+            class="logo"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+            >portfolio</a
+          >
+          <nav id="nav" class="nav">
+            <ul class="nav-list" data-aos="fade-down" data-aos-duration="1000">
+              <li class="nav-item">
+                <a href="#home" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="#projects" class="nav-link">Works</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#certificates" class="nav-link">Certificates</a>
+              </li>
+
+            </ul>
+            <button id="nav-btn" class="nav-btn">
+              <img
+                id="nav-btn-img"
+                src="img/icons/open.svg"
+                alt="Navigation button"
+              />
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="container container-lg">
+        <div
+          class="hero-row"
+          data-aos="fade-zoom-in"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-duration="1000"
+        >
+          <div class="hero-content">
+            <span class="hero-greeting"> Hello, I am</span>
+            <h1 class="hero-heading">Abhishek Singh</h1>
+              <span class="hero-heading-subtitle">
+                Data Science & Analytics | Godot Game Developer
+              </span>
+
+            <div class="about-social-list">
+              <div class="social-links-row">
+                <a href="https://github.com/a6h101">
+                  <img
+                    src="img/social_icons/github.svg"
+                    alt="Link to GitHub account"
+                  />
+                </a>
+
+                <a href="https://www.linkedin.com/in/abhishek-singh-47b610355/">
+                  <img
+                    src="img/social_icons/linkedin.svg"
+                    alt="Link to linkedin profile"
+                  />
+                </a>
+
+                <a href="#!">
+                  <img
+                    src="img/social_icons/instagram.svg"
+                    alt="Link to instagram profile"
+                /></a>
+              </div>
+            </div>
+
+            <div>
+              <a href="#projects" class="btn">My Portfolio</a>
+              <a href="#contact" class="btn btn-white">Contact Me</a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-title">
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-row">
+          <div
+            class="about-content"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <p class="about-descr">
+              Hi, I'm Abhishek Singh, a Data Science and Analytics enthusiast with a strong interest in turning data into meaningful insights. I enjoy working on machine learning projects, data visualization, and solving real-world problems using data-driven approaches.
+
+              I’m also familiar with game development using the Godot Engine, where I explore interactive systems and gameplay mechanics.
+
+              I'm always learning and building — aiming to combine creativity with analytical thinking.
+              </p>
+
+            <div class="about-download-btn">
+              <a href="#!" class="btn btn-white">Download CV</a>
+            </div>
+          </div>
+          <div
+            class="about-skills"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <div class="skill">
+                <div class="skill-title">Python (Data Science)</div>
+                <div class="skill-percent">85%</div>
+                <div class="skill-bar__progress">
+                  <div class="skill-bar__fill" data-progress="85"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-title">Machine Learning</div>
+                <div class="skill-percent">75%</div>
+                <div class="skill-bar__progress">
+                  <div class="skill-bar__fill" data-progress="75"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-title">Data Visualization</div>
+                <div class="skill-percent">80%</div>
+                <div class="skill-bar__progress">
+                  <div class="skill-bar__fill" data-progress="80"></div>
+                </div>
+              </div>
+
+              <div class="skill">
+                <div class="skill-title">Godot Game Development</div>
+                <div class="skill-percent">70%</div>
+                <div class="skill-bar__progress">
+                  <div class="skill-bar__fill" data-progress="70"></div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container container-lg">
+        <div class="projects-title">
+          <h2 class="title">Projects</h2>
+        </div>
+
+        <div class="projects-row">
+
+  <!-- Book Recommendation System -->
+  <div
+    class="project-box"
+    data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-duration="1000"
+  >
+    <a href="https://github.com/a6h101/book-recommendation-system" target="_blank">
+      <img class="project-img" src="img/works/bookverse (2).png" alt="Book Recommendation System" />
+      <div class="project-mask">
+        <div class="project-caption">
+          <h5 class="white">Book Recommendation System</h5>
+          <p class="white">Python, FastAPI, NLP, Scikit-learn</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- IIT Guwahati Game Jam Project -->
+  <div
+    class="project-box"
+    data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="300"
+    data-aos-duration="1000"
+  >
+    <a href="https://github.com/in-somniacs/-REDACTED-" target="_blank">
+      <img class="project-img" src="img/works/redacted.png" alt="GameDeon Game Jam Project" />
+      <div class="project-mask">
+        <div class="project-caption">
+          <h5 class="white">GameDeon – IITG Game Jam</h5>
+          <p class="white">Godot, GDScript | Ranked 7th Nationwide</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Rockfall Game -->
+  <div
+    class="project-box"
+    data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="600"
+    data-aos-duration="1000"
+  >
+    <a href="https://github.com/a6h101/Rockfall" target="_blank">
+      <img class="project-img" src="img/works/ingame.png" alt="Rockfall Game" />
+      <div class="project-mask">
+        <div class="project-caption">
+          <h5 class="white">Rockfall – 2D Arcade Game</h5>
+          <p class="white">Python, Pyxel | Collision & Game Logic</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <!-- Terminal Hangman Game -->
+  <div
+    class="project-box"
+    data-aos="fade-zoom-in"
+    data-aos-easing="ease-in-out"
+    data-aos-delay="900"
+    data-aos-duration="1000"
+  >
+    <a href="https://github.com/a6h101/Hangman-CLI" target="_blank">
+      <img class="project-img" src="img/works/hangman.png" alt="Terminal Hangman Game" />
+      <div class="project-mask">
+        <div class="project-caption">
+          <h5 class="white">Terminal Hangman Game</h5>
+          <p class="white">Python | CLI Game with State Management</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+    </section>
+
+  <section id="certificates" class="certificates-section">
+  <div class="container container-lg">
+    <div class="certificates-title">
+      <h2 class="title">Certifications</h2>
+    </div>
+
+    <div class="certificates-grid">
+
+      <!-- IBM What is Data Science -->
+      <div class="certificate-card">
+        <img src="img/certificates/what is data science.png" alt="IBM What is Data Science Certificate" class="certificate-img">
+        <div class="certificate-content">
+          <h3>IBM: What is Data Science?</h3>
+          <p>Fundamentals of data science, roles, and real-world applications.</p>
+          <a href="https://coursera.org/share/e7a5409086f3afe0b13d8d9ce0c06ed7" target="_blank" class="certificate-btn">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- IBM Tools for Data Science -->
+      <div class="certificate-card">
+        <img src="img/certificates/tools for data science.png" alt="IBM Tools for Data Science Certificate" class="certificate-img">
+        <div class="certificate-content">
+          <h3>IBM: Tools for Data Science</h3>
+          <p>Python, SQL, Jupyter Notebook, Git, and data analysis tools.</p>
+          <a href="https://coursera.org/share/0a27ddb199e0ce0cade760b1d1b8dcec" target="_blank" class="certificate-btn">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- IBM Data Science Methodology -->
+      <div class="certificate-card">
+        <img src="img/certificates/data science methodology.png" alt="IBM Data Science Methodology Certificate" class="certificate-img">
+        <div class="certificate-content">
+          <h3>IBM: Data Science Methodology</h3>
+          <p>Data science workflow, project lifecycle, and analytics methodology.</p>
+          <a href="https://coursera.org/share/27cc5e5a209d137bf9e3cd0f01f72428" target="_blank" class="certificate-btn">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- Google Foundations of Data -->
+      <div class="certificate-card">
+        <img src="img/certificates/foundations.png" alt="Google Foundations Data Certificate" class="certificate-img">
+        <div class="certificate-content">
+          <h3>Google: Foundations — Data, Data, Everywhere</h3>
+          <p>Data-driven decision making, collection, analysis, and interpretation.</p>
+          <a href="https://coursera.org/share/05c98273bc58c20f5d86a56c5894d664" target="_blank" class="certificate-btn">View Certificate</a>
+        </div>
+      </div>
+
+      <!-- IIT Guwahati Game Jam -->
+      <div class="certificate-card">
+        <img src="img/certificates/" alt="IIT Guwahati Game Jam Certificate" class="certificate-img">
+        <div class="certificate-content">
+          <h3>IIT Guwahati Game Jam – GameDeon</h3>
+          <p>Developed a game in a 2-member team; implemented core gameplay mechanics.</p>
+          <a href="https://in-somniacs.itch.io/redacted" target="_blank" class="certificate-btn">Game page</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+    <div class="contact-section">
+      <p class="contact-title">You can reach me here</p>
+
+      <div class="contact-item">
+        <span class="contact-label">Email</span>
+        <a href="mailto:abhushek2004@email.com" class="contact-link">
+          abhushek2004@gmail.com
+        </a>
+      </div>
+
+      <div class="contact-item">
+        <span class="contact-label">GitHub</span>
+        <a href="https://github.com/a6h101" target="_blank" class="contact-link">
+          github.com/a6h101
+        </a>
+      </div>
+
+      <div class="contact-item">
+        <span class="contact-label">LinkedIn</span>
+        <a href="https://www.linkedin.com/in/abhishek-singh-47b610355/" target="_blank" class="contact-link">
+          linkedin.com/in/abhishek-singh
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="social-links-row footer-social">
+            <a href="https://github.com/a6h101">
+              <img
+                src="img/social_icons/github.svg"
+                alt="Link to GitHub account"
+              />
+            </a>
+
+            <a href="https://www.linkedin.com/in/abhishek-singh-47b610355/">
+              <img
+                src="img/social_icons/linkedin.svg"
+                alt="Link to linkedin profile"
+              />
+            </a>
+
+            <a href="">
+              <img
+                src="img/social_icons/instagram.svg"
+                alt="Link to instagram profile"
+            /></a>
+          </div>
+
+          <div class="footer-copyright">
+            <p>&copy; Copyright Abhishek Singh 2026</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="goToTop" class="goToTop">
+      <a href="#home">
+        <img src="img/icons/arrow_up.svg" alt="Back to top"
+      /></a>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
